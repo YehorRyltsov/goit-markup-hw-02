@@ -209,6 +209,11 @@ body {
 .footer-phone:focus {
   background: var(--hov-foc);
 }
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
 .herop-button {
   color: #f5f4fa;
   cursor: pointer;
